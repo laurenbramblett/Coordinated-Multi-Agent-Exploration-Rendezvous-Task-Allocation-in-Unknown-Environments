@@ -26,3 +26,15 @@ If using this code, please cite our paper:
 
 Bramblett, Lauren, Rahul Peddi, and Nicola Bezzo. "Coordinated Multi-Agent Exploration, Rendezvous, & Task Allocation in Unknown Environments with Limited Connectivity." 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2022.
 
+Bibtex:
+```
+@inproceedings{bramblett2022coordinated,
+  title={Coordinated Multi-Agent Exploration, Rendezvous, \& Task Allocation in Unknown Environments with Limited Connectivity},
+  author={Bramblett, Lauren and Peddi, Rahul and Bezzo, Nicola},
+  booktitle={2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={12706--12712},
+  year={2022},
+  organization={IEEE}
+}
+```
+
