@@ -12,11 +12,11 @@ git clone https://github.com/laurenbramblett/Coordinated-Multi-Agent-Exploration
 ## Usage
 
 * Running "mainFSM_run.m" will run all relevant functions given the user defined inputs
-** Make sure to change any pieces such as agent locations, maps, or tuning parameters in lines 7-67
+	* Make sure to change any pieces such as agent locations, maps, or tuning parameters in lines 7-67
 
 Below is a picture of the simulation in action:
 
-<img src="images/Capture.png"
+<img src="images/Capture.JPG"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 
