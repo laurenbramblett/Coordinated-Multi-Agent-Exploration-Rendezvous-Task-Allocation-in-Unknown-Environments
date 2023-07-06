@@ -14,9 +14,10 @@ whichMap = "clutter"; %[mapY, playground, maze, complex, warehouse,clutter]
 [obs, M0,x_scale,y_scale] = setMap(whichMap);
 
 %% Video setup/ File Save
-plt.gif = "yes";
+plt.gif = "no";
 plt.filename = "plt_exploreOnlyWithRz3Agents";
-plt.save = "no";
+plt.save = "yes";
+plt.agentPerspectiveGraph = "yes";
 
 %% Run main
 runType = "FSM"; %[FSM = proposed approach, meetplan = always rendezvous, SR = always connected]
@@ -79,3 +80,7 @@ end
 if plt.save == "yes"
     save(plt.filename)
 end
+if plt.agentPerspectiveGraph == "yes"
+    makeVideoMultAgent(plt);
+end
+
